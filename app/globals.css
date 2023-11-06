@@ -21,5 +21,7 @@ body {
 }
 
 .header {
-  background-color: #77001e;
+  background-color: #FFFFFF;
+  height: 80px;
+  padding: 15px;
 }

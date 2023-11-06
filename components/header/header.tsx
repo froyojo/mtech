@@ -5,8 +5,8 @@ const header = () => {
   return (
     <header className='header'>
         <Image
-            src="../public/MTECH_full-logo.svg"
-            width={50}
+            src="/MTECH_full-logo.svg"
+            width={200}
             height={50}
             alt="Picture of the author"
         />
