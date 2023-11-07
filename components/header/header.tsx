@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import NavButtons from './navButtons'
-import './header.scss'
+import './header.css'
 
 const header = () => {
   return (

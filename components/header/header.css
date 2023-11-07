@@ -1,0 +1,30 @@
+
+
+.header {
+  background-color: #FFFFFF;
+  height: 80px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navButtons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+}
+
+.applyNow {
+  background-color: #77001e;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 10px;
+  color: #FFFFFF;
+}
+
+.applyNow :hover {
+  background-color: #890022;
+}

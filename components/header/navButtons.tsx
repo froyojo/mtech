@@ -1,5 +1,5 @@
 import React from 'react'
-import './header.scss'
+import './header.css'
 
 const navButtons = () => {
   return (
@@ -7,7 +7,7 @@ const navButtons = () => {
         <span>Search</span>
         <span>Canvas</span>
         <span>Student Portal</span>
-        <button>Apply to MTECH</button>
+        <button className='applyNow'>Apply to MTECH</button>
     </span>
   )
 }
