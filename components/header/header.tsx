@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import NavButtons from './navButtons'
+import './header.scss'
 
 const header = () => {
   return (
@@ -10,6 +12,7 @@ const header = () => {
             height={50}
             alt="Picture of the author"
         />
+        <NavButtons />
     </header>
   )
 }

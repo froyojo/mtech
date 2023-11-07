@@ -19,9 +19,3 @@
 body {
   color: rgb(var(--foreground-rgb));
 }
-
-.header {
-  background-color: #FFFFFF;
-  height: 80px;
-  padding: 15px;
-}
