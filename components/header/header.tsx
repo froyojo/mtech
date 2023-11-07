@@ -8,7 +8,7 @@ const header = () => {
     <header className='header'>
         <Image
             src="/MTECH_full-logo.svg"
-            width={200}
+            width={180}
             height={50}
             alt="Picture of the author"
         />

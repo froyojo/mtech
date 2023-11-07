@@ -13,7 +13,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 60%;
+  width: 450px;
 }
 
 .applyNow {
@@ -23,8 +23,15 @@
   font-weight: 500;
   padding: 10px;
   color: #FFFFFF;
+  transition: transform .2s ease-in-out;
 }
 
-.applyNow :hover {
+.applyNow:hover {
   background-color: #890022;
+  transform: scale(1.01);
+}
+
+.headerLinks {
+  font-size: 1em;
+  font-weight: 500;
 }
